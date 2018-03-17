@@ -1,0 +1,80 @@
+h1{
+    color: aqua;
+}
+
+iframe {
+    height: 450px;
+    width: 700px;
+}
+
+#iframe {
+    position: absolute;
+    right: 5px;
+    top: 80px;
+
+}
+th {
+    font-size: 150%;
+    color: chartreuse;
+}
+table{
+    border: 2px solid grey;
+}
+
+img{
+    width: 30px;
+}
+ul{
+    list-style-type: none;
+}
+
+h1::first-letter{
+    color: #ff0000;
+    font-family: "Old English Text MT",sans-serif;
+}
+
+body{
+    background: url(../images/image.png);
+}
+
+p::selection{
+    color: orange;
+    background: black;
+}
+
+p{
+    font-family: "Forte",sans-serif;
+}
+
+li a{
+    font-family: "Viner Hand ITC", cursive;
+    font-size: 130%;
+}
+
+li a:hover{
+    color: orange;
+    background: #0027ff;
+    border-radius: 0.45em;
+    transition: 1s ease-out;
+}
+
+a:link{
+    color: darkorange;
+}
+li a:visited{
+    color: chartreuse;
+}
+
+.face{
+    font-family: "Broadway";
+}
+.face:visited{
+    color: crimson;
+}
+
+.face:hover{
+    color: blueviolet;
+    background: orange;
+    border-radius: 0.1em 0.9em 0.1em 0.3em;
+    transition: 1s ease-in;
+}
