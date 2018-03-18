@@ -1,0 +1,159 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.head{
+    width: 100%;
+}
+
+
+.podhead{    
+    height: 250px;
+    overflow: hidden; 
+    position: relative;
+}
+
+.icons_background {
+    height: 400px;
+    margin: -230px -83px;
+    transform: rotate(-5deg);
+    width: 120%;
+}
+.icons {
+    width: 83px;
+    height: 83px;
+    float:left;
+    background: url(sprite.png);
+}
+
+.facebook{
+    background-position: 0px 0px; 
+}
+
+.facebook2{
+    background-position: 0px -84px; 
+}
+
+.facebook3{
+    background-position: 0px -168px; 
+}
+
+.dots1{
+    background-position: -84px 0px;
+}
+.dots2{
+    background-position: -84px -84px;
+}
+
+.dots3{
+    background-position: -84px -168px;
+}
+
+.basket1{
+    background-position: -168px 0px;
+}
+
+.basket2{
+    background-position: -168px -84px;
+}
+
+.basket3{
+    background-position: -168px -168px;
+}
+
+.google-clear{
+    background-position: -252px 0px;
+}
+
+.google-color{
+    background-position: -252px -84px;
+}
+
+.google-dark{
+    background-position: -252px -168px;
+}
+
+.linkedIn-clear{
+    background-position: -336px 0px;
+}
+
+.linkedIn-color{
+    background-position: -336px -84px;
+}
+
+.linkedIn-dark{
+    background-position: -336px -168px;
+}
+
+.pinterest-clear{
+    background-position: -420px 0px;
+}
+
+.pinterest-color{
+    background-position: -420px -84px;
+}
+
+.pinterest-dark{
+    background-position: -420px -168px;
+}
+
+.rss-clear{
+    background-position: -504px 0px;
+}
+
+.rss-color{
+    background-position: -504px -84px;
+}
+
+.rss-dark{
+    background-position: -504px -168px;
+}
+
+.skype-clear{
+    background-position: -588px 0px;
+}
+
+.skype-color{
+    background-position: -588px -84px;
+}
+
+.skype-dark{
+    background-position: -588px -168px;
+}
+
+.twitter-clear{
+    background-position: -672px 0px;
+}
+
+.twitter-color{
+    background-position: -672px -84px;
+}
+
+.twitter-dark{
+    background-position: -672px -168px;
+}
+
+.vine-clear{
+    background-position: -756px 0px;
+}
+
+.vine-color{
+    background-position: -756px -84px;
+}
+
+.vine-dark{
+    background-position: -756px -168px;
+}
+
+.youtube-clear{
+    background-position: -840px 0px;
+}
+
+.youtube-color{
+    background-position: -840px -84px;
+}
+
+.youtube-dark{
+    background-position: -840px -168px;
+}
+
