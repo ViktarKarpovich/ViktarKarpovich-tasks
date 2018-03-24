@@ -1,3 +1,8 @@
+@font-face{
+    font-family: "Mistral";
+    src: url(./fonts/Mistral.ttf)
+}
+
 *{
     margin: 0px;
     padding: 0px;
@@ -7,14 +12,13 @@
 }
 
 
-.podhead{    
-    height: 220px;
+.podhead{
+    height: 300px;
     overflow: hidden; 
     position: relative;
 }
 
 .icons_background {
-    height: 400px;
     margin: -230px -83px;
     transform: rotate(-5deg);
     width: 120%;
@@ -23,7 +27,7 @@
     width: 84px;
     height: 84px;
     float:left;
-    background: url(sprite.png);
+    background: url(../images/sprite.png);
 }
 
 .facebook{
@@ -175,8 +179,6 @@
 .animation:active{
     box-shadow:inset 2px 2px 10px #000;
     color: rgb(121, 121, 121);
-    margin-top: 5px;
-    
 }
     
 .pink{
@@ -195,7 +197,7 @@
 }
 
 .green{
-    width: 150px;
+    max-width: 150px;
     background: linear-gradient(#00ca00, #007200, #00ca00);
     font: 110% sans-serif;
     padding: 4px;
@@ -215,6 +217,11 @@
     font: 110% sans-serif;
     padding: 2px;
     color: white;
+}
+
+.smallerblue{
+    width: 100px;
+    padding: 0px;
 }
 
 .blue:hover{
@@ -252,6 +259,11 @@
     color: white;
 }
 
+.smaller_orange{
+    width: 120px;
+    padding: 0px;
+}
+
 .orange:hover{
     background: linear-gradient(#ffd139d0, #ffc400, #ffd139d0);
 }
@@ -266,6 +278,11 @@
     font: 110% sans-serif;
     padding: 2px;
     color: white;
+}
+
+.smaller_yellow{
+    width: 130px;
+    padding: 1px;
 }
 
 .yellow:hover{
@@ -292,6 +309,26 @@
 
 .section_dark{
     padding: 10px;
-    border: 1px solid rgba(0, 0, 0, 0.192);
     background: rgba(0, 0, 0, 0.8);
+}
+
+
+
+.logo{
+    padding: 10px;
+    left: 37%;
+    top: 30%;
+    position: absolute;
+    background: rgba(255, 255, 255);
+    z-index: 1;
+    opacity: 0.9;
+
+    
+}
+
+.logo2{
+    padding: 10px;
+    font-size: 60px;
+    border: 5px solid black;
+    font-family: "Mistral";
 }
