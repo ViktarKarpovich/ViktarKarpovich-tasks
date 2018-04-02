@@ -126,7 +126,7 @@
     border-radius: 50px;
     padding: 2% 5%;
     margin: 8% 0 8% 0;
-    font-size: 120%;
+    font-size: 70%;
     font-weight: 900;
     font-family: 'fontawesome' sans-serif;
     text-transform: uppercase;
@@ -271,6 +271,10 @@
     background-color: #E4AE58;
 }
 
+.vk-page__text_color-Equator{
+    background-color: #E3AD58;
+}
+
 .vk-third-line-titles_title-size{
     font-size: 1.7em;
     margin: 25px 10% 25px 10%;
@@ -279,7 +283,7 @@
 
 .vk-third-line__first-red-block{
     width: 100%;
-    background-color: rgba(192, 54, 0, 0.849);
+    background-color: #E9714C;
 }
 
 .vk-third-line__first-black-block{
@@ -342,7 +346,6 @@
 
 .vk-section-experience-and-education__block-my-experiences{
     width: 100%;
-    background-color: #E4AE58;
 }
 
 
