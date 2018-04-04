@@ -12,17 +12,22 @@
 }
 
 .vk-page {
+    font-size: 18px;
     font-family: 'SourseSansPro', serif;
 }
 
+
 .vk-first-line {
-    display: flex;
     width: 100%;
 }
+
+.vk__content-wrapper{
+    display: flex;
+}
+
 .vk-first-line__image {
     background-size: cover;
-    background: url("../images/5.jpg") center;
-    height: auto;
+    background: url("../images/5.jpg") no-repeat center;
     width: 100%;
 }
 
@@ -30,7 +35,7 @@
     font-size: 20px;
     margin: 4% 0 0 25%;
     text-shadow: white 1.5px 1.5px 1px;
-    font-weight: 900    ;
+    font-weight: 900;
 }
 
 .vk-first-line__content-wrapper {
@@ -39,7 +44,7 @@
 
 
 .vk-first-line__first-line-menu{
-    padding: 30px 10px 30px 5%;
+    margin: 6% 0 0 4%;
 }
 
 .vk-first-line-menu{
@@ -115,13 +120,6 @@
 
 .vk-first-line__button{
     background: transparent;
-}
-
-.vk-first-line__button:active{
-
-}
-
-.vk-first-line__button_border{
     border: 3px solid black;
     border-radius: 50px;
     padding: 2% 5%;
@@ -130,6 +128,10 @@
     font-weight: 900;
     font-family: 'fontawesome' sans-serif;
     text-transform: uppercase;
+}
+
+.vk-first-line__button:active{
+
 }
 
 .vk-first-line__content-wrapper{
@@ -143,7 +145,6 @@
 
 .vk-second-line {
     display: flex;
-    max-height: 350px;
 }
 
 
@@ -160,7 +161,7 @@
 
 .vk-second-line-author{
    background-color: rgba(128, 128, 128, 0.03);
-   width: 100%;
+   width: 50%;
 }
 
 .vk-second-line-author__sub-text{
@@ -170,23 +171,23 @@
 .vk-second-line-skills{
     display: flex;
     width: 100%;
-    background-color: #f19d00bd;
 }
 
 .vk-second-line-skills__image{
-    max-height: 350px;
-    width: 100%;
+    width: 25%;
 }
 
 .vk-second-line-skills__image-1{
-    background: url("../images/1.jpg");
+    background: url("../images/1.jpg") no-repeat;
     width: 100%;
     height: 100%;
     background-position-x: 50%;
 }
 
 .vk-second-line-skills-right-side{
-    width: 100%;
+    width: 25%;
+    background-color: #f19d00bd;
+
 }
 
 
@@ -253,9 +254,12 @@
 }
 
 .vk-third-line{
-    display: flex;
     width: 100%;
     height: 100%;
+}
+
+.vk-third-line__block_width{
+    width: 25%;
 }
 
 .vk-page__text_color-white{
@@ -267,6 +271,9 @@
 }
 
 .vk-third-line__first-yellow-block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     width: 100%;
     background-color: #E4AE58;
 }
@@ -282,16 +289,25 @@
 }
 
 .vk-third-line__first-red-block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     width: 100%;
     background-color: #E9714C;
 }
 
 .vk-third-line__first-black-block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     width:100%;
     background-color: rgba(0, 0, 0, 0.9);
 }
 
 .vk-third-line__first-white-block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     width: 100%;
     background: white;
 }
@@ -420,8 +436,11 @@
     font-size: 80%;
 }
 
+.vk-section-contact__block{
+    width: 100%;
+}
+
 .vk-section-contact{
-    display: flex;
     width: 100%;    
     max-height: 50%;
 }
@@ -436,7 +455,7 @@
 }
 
 .vk-section-contact__message-form_padding{
-    padding: 2% 0 0 2%;
+    padding: 2% 2% 0 2%;
 }
 
 .vk-section-contact__message-form{
@@ -478,7 +497,7 @@
 }
 
 .vk-section-contact__image{
-    background: url("../images/2.jpg");
+    background: url("../images/2.jpg") center;
     background-size: cover;
     width: 100%;
 }
@@ -496,6 +515,10 @@
     padding: 12% 0 0 10%;
 }
 
+.vk-section-contact__data{
+
+}
+
 .vk-section-contact-information__title{
     font-size: 1.4em;
     margin-bottom: 6%;
@@ -509,21 +532,11 @@
     margin-left: 5%;
 }
 
-.vk-section-contact__number{
-    display: flex;
-}
 
 .vk-section-contact__number-margin-bottom{
     margin-bottom: 5%;
 }
 
-.vk-section-contact__email{
-    display: flex;
-}
-
-.vk-section-contact__url{
-    display: flex;
-}
 
 .vk-section-contact-information__title_margin-bottom{
     margin-top: 15%;
@@ -531,6 +544,7 @@
 
 .vk-section-footer{
     width: 100%;
+    justify-content: center;
 }
 
 .vk-section-footer__content{
@@ -545,8 +559,6 @@
 
 .vk-section-footer__icons{
     display: flex;
-    flex-wrap: wrap;
-	align-items: center;
 	justify-content: center;
 	
 }
@@ -563,3 +575,8 @@
 .vk-section-footer__link_color:hover{
 
 }
+
+::-webkit-input-placeholder {color:#fff;}
+::-moz-placeholder          {color:#fff;}/* Firefox 19+ */
+:-moz-placeholder           {color:#fff;}/* Firefox 18- */
+:-ms-input-placeholder      {color:#fff;}

@@ -9,17 +9,19 @@
     <link type="text/css" rel="stylesheet" href="./css/reset.css">
     <link type="text/css" rel="stylesheet" href="./css/font-awesome.min.css">
     <link type="text/css" rel="stylesheet" href="./css/style.css">
+    <link type="text/css" rel="stylesheet" href="./css/media-queries.css">
     <title>Task_7</title>
 </head>
 <body>
 <div class="vk-page">
-        <div class="vk-first-line">
+        <section class="vk-first-line vk__content-wrapper">
             <div class="vk-first-line__image" alt="Фото автора">
                     <div class="vk-first-line-inscript">
                             <div class="">Stimulus</div>
                     </div>
             </div>
             <div class="vk-first-line__content-wrapper">
+                <div class="vk-first-line__container">
                 <div class="vk-first-line__first-line-menu">
                     <nav class="vk-first-line-menu">
                         <a class="vk-first-line-menu__item vk-page__words_color-Calico" href="#">HOME</a>
@@ -29,7 +31,8 @@
                         <a class="vk-first-line-menu__item" href="#CONTACT">CONTACT</a>
                     </nav>
                 </div>
-                <div class="vk-first-line-right-side">
+                </div>
+                <div class="vk-first-line-right-side ">
                 <div class="vk-first-line-right-side__position">
                     <div class="vk-first-line-right-side__text
                                 vk-page__text_color-Boulder 
@@ -47,15 +50,14 @@
                         interdum in. Ut a dictum purus. Vestibulum non pellentesque felis, sed dignissim urna.
                         Vestibulum id accumsan quam
                     </div>
-                    <button class="vk-first-line__button
-                                   vk-first-line__button_border">Get started</button>
+                    <button class="vk-first-line__button">Get started</button>
                 </div>
                 </div>
             </div>
-        </div>
+        </section>
         
-        <section id="ABOUTME" class="vk-second-line">
-            <div class="vk-second-line-author">
+        <section id="ABOUTME" class="vk-second-line vk__content-wrapper">
+            <div class="vk-second-line-author vk-second-line-author_margin">
                <div class="vk-second-line-author__block_padding">
                 <div class="vk-second-line-author__title-text
                             vk-second-line__title-text__font-size">
@@ -75,13 +77,11 @@
                 </div>
             </div>
             
-            <section class="vk-second-line-skills">
-
-               <div class="vk-second-line-skills__image">
+               <div class="vk-second-line-skills__image vk-page__media-elements_width">
                    <div class="vk-second-line-skills__image-1"></div>
                </div>
                
-                <div class="vk-second-line-skills-right-side">
+                <div class="vk-second-line-skills-right-side vk-page__media-elements_width">
                     <div class="vk-second-line-skills-right-side__text_padding">
                         <div class="vk-second-line-skills-right-side__title-text
                                     vk-second-line__title-text__font-size">
@@ -91,7 +91,7 @@
                             Photoshop. HTML CSS JS. Web Design
                         </div>
 
-                        <section class="vk-progress-container">
+                        <div class="vk-progress-container">
                                 <div class="vk-progress-container__progress-range">
                                     <div class="vk-progress-container__progress-range-title">
                                         Frontend Design
@@ -132,15 +132,16 @@
                                                  
                                              </div>
                                          </div>
-                                     </div>
-                            </section>  
+                                 </div>
+                            </div>  
                         </div>
-                    </div>
-            </section>
+                </div>
         </section>
 
-        <section class="vk-third-line">
-            <div class="vk-third-line__first-yellow-block">
+        <section class="vk-third-line vk__content-wrapper">
+            <div class="vk-third-line__first-yellow-block 
+                        vk-third-line__block_width
+                        vk-third-line__mobile_width-100">
                 <div class="vk-third-line__color-icons vk-third-line__icons_position">
                     <i class="fa fa-desktop fa-3x" aria-hidden="false"></i>
                 </div>
@@ -155,7 +156,9 @@
                 </div>
             </div>
         
-            <div class="vk-third-line__first-red-block">
+            <div class="vk-third-line__first-red-block 
+                        vk-third-line__block_width
+                        vk-third-line__mobile_width-100">
                 <div class=" vk-third-line__color-icons
                     vk-third-line__icons_position">
                 <i class="fa fa-paper-plane fa-3x" aria-hidden="false"></i>
@@ -169,7 +172,9 @@
                 </div>
             </div>
         
-            <div class="vk-third-line__first-black-block">
+            <div class="vk-third-line__first-black-block 
+                        vk-third-line__block_width 
+                        vk-third-line__mobile_width-100">
                 <div class="vk-third-line__color-icons
                             vk-third-line__icons_position">
                     <i class="fa fa-table fa-3x" aria-hidden="false"></i>
@@ -184,7 +189,9 @@
                 </div>
             </div>
         
-                <div class="vk-third-line__first-white-block">
+                <div class="vk-third-line__first-white-block 
+                            vk-third-line__block_width
+                            vk-third-line__mobile_width-100">
                     <div class="vk-third-line__color-icons-black vk-third-line__icons_position">
                         <i class="fa fa-html5 fa-3x" aria-hidden="false"></i>
                     </div>
@@ -198,7 +205,7 @@
                     </div>
                 </div>
         </section>
-        <section id="EXPERIENCES" class="vk-section-experience-and-education vk-section-contact__form-background_color-Burnt-Sienna">
+        <section id="EXPERIENCES"  class="vk__content-wrapper vk-section-experience-and-education vk-section-contact__form-background_color-Burnt-Sienna">
                 <div class="vk-section-experience-and-education-image">
                         <div class="vk-section-experience-and-education-image__4s-image"></div>
                     </div>
@@ -238,7 +245,7 @@
                 </div>
             </section>
 
-            <section class="vk-section-experience-and-education">
+            <section class="vk-section-experience-and-education vk__content-wrapper">
 
                 <div class="vk-section-experience-and-education__block-my-experiences vk-page__text_color-Equator">
                     <div class="vk-section-experience-and-education__block-my-experiences_margin">
@@ -281,7 +288,7 @@
                 </div>
             </section>
 
-            <section id="TESTIMONIAL" class="vk-section-testimonial">
+            <section id="TESTIMONIAL" class="vk-section-testimonial vk__content-wrapper">
                 <div class="vk-section-testimonial__image">
                     <div class="vk-section-testimonial__content">
                             <div class="vk-section-testimonial__content_padding-top">
@@ -303,82 +310,87 @@
                 </div>
             </section>
 
-            <section id="CONTACT" class="vk-section-contact">
+            <section id="CONTACT" class="vk-section-contact vk__content-wrapper vk-section-contact__form-background_color-Burnt-Sienna">
             <div class="vk-section-contact__form">
-                <div class="vk-section-contact__form-background_color-Burnt-Sienna">
                     <form class="vk-section-contact__message-form
                                  vk-section-contact__message-form_padding">
                         <div class="vk-section-contact__message-form-title
                                     vk-page__text_color-white">Say hello..</div>
                         <div class="vk-section-contact__message-form-sub-title
+                                    vk-page__text_color-white
                                     vk-page__text_color-white">Integer ut  consectetur est. In cursus orci non ipsum gravida dignissim.</div>
-                        <input class="vk-section-contact__message-form-input
-                                      vk-section-contact__message-form-input_margin-top" placeholder="Your Name">
+                        <input type="name" class="vk-section-contact__message-form-input
+                                                  vk-section-contact__message-form-input_margin-top
+                                                  vk-section-contact__message-form-sub-title" placeholder="Your Name">
                         <input type="email" class="vk-section-contact__message-form-input
                                                    vk-section-contact__message-form-input_margin-top
+                                                   vk-section-contact__message-form-sub-title
                                                    vk-page__text_color-white" placeholder="Your Email">
                         <textarea class="vk-section-contact__message-form-input
-                                         vk-section-contact__message-form-input-text-area_margin-top" cols="20" rows="8" placeholder="Write your message..."></textarea>
+                                         vk-section-contact__message-form-input-text-area_margin-top
+                                         vk-section-contact__message-form-sub-title" cols="20" rows="8" placeholder="Write your message..."></textarea>
                         <input type="button" class="vk-section-contact__message-form-button" value="Send">
                     </form>
-                </div>
             </div>
 
-            <div class="vk-section-contact__image">
-            </div>
+            <div class="vk-section-contact__block vk__content-wrapper">
+                <div class="vk-section-contact__image">
+                </div>
 
             <div class="vk-section-contact__background_black">
                 <div class="vk-section-contact-information">
                     <div class="vk-section-contact-information__title">Visit my office.</div>
-                    <div class="vk-section-contact-information__sub-title
-                                vk-page__text_color-Boulder">456 New Street 22000, New York City, USA.</div>
+                    <address class="vk-section-contact-information__sub-title
+                                vk-page__text_color-Boulder">456 New Street 22000, New York City, USA.</address>
                     <div class="vk-section-contact-information__title
                                 vk-section-contact-information__title_margin-bottom">Contact.</div>
-                    <div class="vk-section-contact__number">
+                                <div class="vk-section-contact__data">
+                    <div class="vk-section-contact__number vk-page__text_align-center">
                         <i class="fa fa-phone vk-page__text_color-Boulder"></i>
-                        <div class="vk-section-contact-information__sub-title
-                                    vk-section-contact-information__sub-title_margin-left
+                        <a href="tel:0101101220" class="vk-section-contact-information__sub-title
                                     vk-section-contact__number-margin-bottom
-                                    vk-page__text_color-Boulder">01-0110-0220</div>
+                                    vk-page__text_color-Boulder">01-0110-0220</a>
                     </div>
-                    <div class="vk-section-contact__email">
+                    <div class="vk-section-contact__email vk-page__text_align-center">
                         <i class="fa fa-envelope vk-page__text_color-Boulder"></i>
-                        <div class="vk-section-contact-information__sub-title
-                                    vk-section-contact-information__sub-title_margin-left
+                        <a href="mailto:hello@company.co" class="vk-section-contact-information__sub-title
+                                    vk-section-contact-information__sub-title-mail_margin-left
                                     vk-section-contact__number-margin-bottom
-                                    vk-page__words_color-Calico">hello@company.co</div>
+                                    vk-page__words_color-Calico">hello@company.co</a>
                     </div>
-                    <div class="vk-section-contact__url">
+                    <div class="vk-section-contact__url vk-page__text_align-center">
                         <i class="fa fa-globe vk-page__text_color-Boulder"></i>
-                        <div class="vk-section-contact-information__sub-title
-                                    vk-section-contact-information__sub-title_margin-left
-                                    vk-page__words_color-Calico">company.co</div>
+                        <a href="https://www.company.com/" target="_blank" class="vk-section-contact-information__sub-title
+                                    vk-page__words_color-Calico">company.co</a>
                     </div>
                 </div>
+                </div>
+                </div>
+            </div>
             </section>
-
-                        <footer class="vk-section-footer">
-                            <div class="vk-section-footer__content">
-                                <div>Copyright 2016 Your Company | Design: <a href="https://www.templatemonster.com" class="vk-page__words_color-Calico vk-section-footer__text_text-decoration-none"  target="_blank">templatemo</a></div>
-                                <ul class="vk-section-footer__icons">
-                                    <li class="vk-section-footer__icons_margin">
-                                        <a href="https://www.facebook.com" target="_blank" class="vk-section-footer__link_color fa fa-facebook fa-1x"></a>
-                                    </li>
-                                    <li class="vk-section-footer__icons_margin">
-                                        <a href="https://twitter.com" target="_blank" class="vk-section-footer__link_color fa fa-twitter fa-1x"></a>
-                                    </li>
-                                    <li class="vk-section-footer__icons_margin">
-                                        <a href="https://plus.google.com" target="_blank" class="vk-section-footer__link_color fa fa-google-plus fa-1x"></a>
-                                    </li>
-                                    <li class="vk-section-footer__icons_margin">
-                                        <a href="https://dribbble.com" target="_blank" class="vk-section-footer__link_color fa fa-dribbble fa-1x"></a>
-                                    </li>
-                                    <li class="vk-section-footer__icons_margin">
-                                        <a href="https://www.linkedin.com" target="_blank" class="vk-section-footer__link_color fa fa-linkedin fa-1x"></a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </footer>
+            <footer class="vk-section-footer vk__content-wrapper">
+                    <div class="vk-section-footer__content">
+                        <div class="vk-section-footer__inscript">Copyright 2016 Your Company | Design: <a href="https://www.templatemonster.com" class="vk-page__words_color-Calico vk-section-footer__text_text-decoration-none"  target="_blank">templatemo</a></div>
+                            <ul class="vk-section-footer__icons">
+                                <li class="vk-section-footer__icons_margin">
+                                    <a href="https://www.facebook.com" target="_blank" class="vk-section-footer__link_color fa fa-facebook fa-1x"></a>
+                                </li>
+                                <li class="vk-section-footer__icons_margin">
+                                    <a href="https://twitter.com" target="_blank" class="vk-section-footer__link_color fa fa-twitter fa-1x"></a>
+                                </li>
+                                <li class="vk-section-footer__icons_margin">
+                                    <a href="https://plus.google.com" target="_blank" class="vk-section-footer__link_color fa fa-google-plus fa-1x"></a>
+                                </li>
+                                <li class="vk-section-footer__icons_margin">
+                                    <a href="https://dribbble.com" target="_blank" class="vk-section-footer__link_color fa fa-dribbble fa-1x"></a>
+                                </li>
+                                <li class="vk-section-footer__icons_margin">
+                                    <a href="https://www.linkedin.com" target="_blank" class="vk-section-footer__link_color fa fa-linkedin fa-1x"></a>
+                                </li>
+                                    </ul>
+                                </div>
+                </footer>
+            
         </div>
 </body>
 </html>

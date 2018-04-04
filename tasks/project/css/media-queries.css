@@ -1,0 +1,413 @@
+@media screen and (max-width: 1280px) {
+
+    .vk-first-line-menu{
+        font-size: 11px;
+    }
+
+    .vk-first-line-inscript {
+        font-size: 17px;
+        margin: 4% 0 0 20%;
+        text-shadow: white 1.4px 1.4px 0.9px;
+    }
+
+    .vk-first-line__first-line-menu{
+        margin: 4% 0 0 3%;
+    }
+
+    .vk-section-contact__message-form-button{
+        align-self: center;
+    }
+    
+}
+
+@media screen and (max-width: 1024px){
+    .vk__content-wrapper{
+        flex-wrap: wrap;
+    }   
+
+    .vk-page__media-elements_width{
+        width: 50%;
+    }
+
+    .vk-second-line-author_margin{
+        width: 100%;
+        text-align: center;
+    }
+
+    .vk-third-line__block_width{
+        width: 50%;
+    }
+
+    .vk-first-line__image{
+        height: 500px;
+    }
+
+    .vk-first-line__content-wrapper{
+        height: 500px;
+    }
+
+    .vk-first-line-right-side__position{
+        padding: 10% 3% 0 3%;
+        text-align: center;
+    }
+
+    .vk-first-line__button{
+        background: transparent;
+        border: 2px solid black;
+        border-radius: 50px;
+        padding: 2% 5%;
+        margin: 6% 0 6% 0;
+        font-size: 50%;
+        font-weight: 900;
+        font-family: 'fontawesome' sans-serif;
+        text-transform: uppercase;
+    }
+
+    .vk-first-line__first-line-menu{    
+        top: 50%;
+        left: 50%;
+    }
+        
+    .vk-first-line__first-line-menu{
+        margin: 1% 0 0 20%;
+    }
+
+    .vk-first-line-menu__item{
+        color: white;
+    }
+
+    .vk-first-line__container{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background: rgba(54, 54, 54, 0.5);
+        height: 30px;
+    }
+
+    .vk-section-experience-and-education{
+        text-align: center;
+    }
+
+    .vk-section-experience-and-education__content{
+        justify-content: center;
+    }
+
+    .vk-section-experience-and-education__block-my-experiences_margin{
+        margin-bottom: 5%;
+    }
+
+    .vk-section-experience-and-education__title{
+        font-size: 3em;
+    }
+
+    .vk-section-experience-and-education__sub-title{
+        font-size: 2em;
+    }
+
+    .vk-section-experience-and-education__content-title{
+        font-size: 2em;
+    }
+
+    .vk-section-experience-and-education__content-text{
+        font-size: 1.3em;
+    }
+
+    .vk-section-experience-and-education__content-date{
+        font-size: 1.5em;
+    }
+
+    .vk-section-testimonial__sub-text{
+        font-size: 1.5em;
+    }
+
+    .vk-section-contact__message-form{
+        text-align: center;
+    }
+
+    .vk-section-contact-information{
+        text-align: center;
+        padding: 3% 0;
+    }
+
+    .vk-section-contact-information__title_margin-bottom{
+        margin: 5%;
+    }
+
+    .vk-page__text_align-center{
+        justify-content: center;
+    }
+
+    .vk-section-contact-information__sub-title-mail_margin-left{
+        margin-left: 1%;
+    }
+
+    .vk-section-contact-information__title{
+        font-size: 2em;
+    }
+
+    .vk-section-contact-information__sub-title{
+        font-size: 1.3em;
+    }
+
+    .vk-section-experience-and-education__block-my-experiences_margin{
+        margin: 10%;
+    }
+
+    .vk-section-contact__form{
+        margin: 5%;
+    }
+
+    .vk-section-contact__message-form-title{
+        font-size: 2em;
+        margin-bottom: 0.6em
+    }
+
+    .vk-section-contact__message-form-sub-title{
+        font-size: 1.2em;
+    }
+
+    .vk-section-contact__message-form-input_margin-top{
+        margin-top: 5%;
+    }
+
+    .vk-section-testimonial__sub-text{
+        font-size: 22px;
+    }
+
+    .fa-1x{
+        font-size: 3em;
+    }
+
+    .vk-section-footer__icons_margin{
+        margin: 10% 10%;
+    }
+
+    .vk-section-footer__inscript{
+        font-size: 1.8em;
+        margin-bottom: 1.4em;
+    }
+
+    .vk-section-contact__message-form_padding{
+        margin: 2%;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .vk-first-line-inscript {
+        font-size: 20px;
+        margin: 5% 0 0 20%;
+        text-shadow: white 1.4px 1.4px 0.9px;
+    }
+    .vk-first-line__content-wrapper {
+        height: 500px;
+    }
+
+    .vk-page__media-elements_width{
+        width: 100%;
+        height: 80vh;
+    }
+
+    .vk-third-line__mobile_width-100{
+        width: 100%;
+    }
+
+    .vk-section-footer__icons_margin{
+        margin: 10% 5%;
+    }
+
+    .vk-first-line-right-side__position {
+        margin: 0 10% 0 10%;
+    }
+
+    .vk-second-line-author__block_padding{
+        padding: 5% 10% 5% 10%;
+    }
+
+    .vk-second-line__title-text__font-size{
+        font-size: 2em;
+    }
+    
+    .vk-third-line__text_position{
+        margin: 0 15%;
+    }
+
+    .vk-section-testimonial__title{
+        font-size: 1.5em;
+    }
+
+    .vk-section-testimonial__sub-text{
+        margin: 5% 10%;
+    }
+
+    .vk-section-testimonial__image{
+        height: 50vh;
+    }
+
+    .vk-section-contact__form{
+        margin: 0 10%;
+    }
+}
+
+@media screen and (max-width: 425px){
+    .vk-first-line__image{
+        height: 400px;
+        background-position-y: 15%;
+    }
+
+    .vk-first-line-inscript{
+        font-size: 16px;
+        margin: 7% 0 0 27%;
+        text-shadow: white 0.7px 0.7px 0.7px;
+    }
+    
+    .vk-first-line__first-line-menu{
+        margin: 1% 0 0 14%;
+    }
+
+    .vk-first-line-menu{
+        font-size: 0.5em;
+    }
+
+    .vk-first-line-right-side__position{
+        margin: 0px 15% 0 15%;
+    }
+
+    .vk-second-line__title-text__font-size{
+        font-size: 1.5em;
+    }
+
+    .vk-second-line-author__author-text{
+        font-size: 12px;
+        line-height: 1.5em;
+    }
+    
+    .vk-page__media-elements_width{
+        width: 100%;
+        height: 100%;
+    }
+    
+    .vk-first-line__text-right-side_center-text{
+        font-size: 1.6em;
+    }
+
+    .vk-second-line-skills__image-1{
+        height: 90vh;
+    }
+
+
+    .vk-section-experience-and-education__title{
+        font-size: 1.8em;
+    }
+
+    .vk-section-experience-and-education__sub-title{
+        font-size: 20px;
+    }
+
+    .vk-section-experience-and-education__content-title{
+        font-size: 20px;
+    }
+
+    .vk-section-experience-and-education__content-date{
+        font-size: 15px;
+    }
+
+    .vk-section-experience-and-education__content-text{
+        font-size: 1.1em;
+    }
+
+    .vk-section-testimonial__title{
+        font-size: 1.5em;
+        line-height: 1.5em;
+    }
+
+    .vk-section-testimonial__sub-text{
+        font-size: 1,1em;
+        line-height: 1.5em;
+    }
+
+    .vk-section-contact-information__title{
+        font-size: 1.5em;
+    }
+
+    .vk-section-contact-information__sub-title{
+        font-size: 1.5em;
+    }
+
+    .vk-section-footer__inscript{
+        font-size: 1.3em;
+    }
+
+    .fa-1x{
+        font-size: 2em;
+    }
+
+}
+
+@media screen and (max-width: 320){
+    .vk-first-line__image{
+        height: 300px;
+        background-position-y: 15%;
+        background-position-x: 56%;
+    }
+
+    .vk-first-line-inscript{
+        font-size: 14px;
+        margin: 11% 0 0 27%;
+        text-shadow: white 0.7px 0.7px 0.7px;
+    }
+    
+    .vk-first-line-right-side__position{
+        margin: 0 10% 0 10%;
+    }
+
+    .vk-first-line-right-side__text_letter-spacing{
+        letter-spacing: 1px;
+    }
+
+    .vk-second-line__title-text__font-size{
+        font-size: 1.5em;
+    }
+
+    .vk-second-line-author__author-text{
+        font-size: 12px;
+        line-height: 1.5em;
+    }
+    
+    .vk-page__media-elements_width{
+        width: 100%;
+        height: 100%;
+    }
+    
+    .vk-first-line__text-right-side_center-text{
+        font-size: 0.9em;
+        line-height: 1.5em;
+    }
+
+    .vk-section-testimonial__title{
+        font-size: 0.7em;
+        line-height: 1.5em;
+    }
+
+    .vk-section-contact__message-form-title{
+        font-size: 1.5em;
+        margin-bottom: 0.2em;
+    }
+
+    .vk-section-experience-and-education__content-text{
+        font-size: 0.9em;
+    }
+    
+    .vk-section-testimonial__title{
+        font-size: 1.2em;
+    }
+
+    .vk-section-testimonial__sub-text{
+        font-size: 0.9em;
+    }
+
+    .vk-section-contact__form{
+        margin: 0 5%
+    }
+
+}
