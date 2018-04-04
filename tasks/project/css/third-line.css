@@ -27,9 +27,9 @@
     background-color: #E3AD58;
 }
 
-.vk-third-line-titles_title-size{
+.vk-third-line__titles_title-size{
     font-size: 1.7em;
-    margin: 25px 10% 25px 10%;
+    margin: 0.9em 10%;
     text-align: center;
 }
 
@@ -64,15 +64,16 @@
 .vk-third-line__text_position{
     text-align: center;
     line-height: 1.5em;
+    margin: 2em 0;
 }
 
-.vk-third-line-color-icons_black{
+.vk-third-line__color-icons_black{
     color: black;
 }
 
 
 .vk-third-line__icons_position{
-    margin: 20px 0;
+    margin: 2.5em 0;
     text-align: center;
 }
 

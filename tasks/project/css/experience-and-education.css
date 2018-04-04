@@ -3,23 +3,23 @@
     width: 100%;
 }
 
-.vk-section-experience-and-education-image{
+.vk-section-experience-and-education__image{
     max-height: 50%;
     width: 100%;
 }
 
-.vk-section-experience-and-education-image__4s-image{
+.vk-section-experience-and-education__image_4s-image{
     background: url("../images/4.jpg");
     background-size: cover;
     width: 100%;
     height: 65vh;
 }
 
-.vk-section-experience-and-education-image__3s-image{
+.vk-section-experience-and-education__image_3s-image{
     background: url("../images/3.jpg");
     background-size: cover;
     width: 100%;
-    height: 50vh;
+    height: 65vh;
 }
 
 
@@ -29,7 +29,7 @@
 
 
 .vk-section-experience-and-education__block-my-experiences_margin{
-    margin: 5% 0 0 5%;
+    margin: 8% 0 0 5%;
 }
 
 .vk-section-experience-and-education__title{

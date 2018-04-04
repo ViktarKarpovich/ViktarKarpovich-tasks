@@ -1,9 +1,9 @@
-.vk-section-footer{
+.vk-section-footer__content{
     width: 100%;
     justify-content: center;
 }
 
-.vk-section-footer__content{
+.vk-section-footer__content_position{
     margin: 8% 0;
     text-align: center;
 	color: #887e7dea;
@@ -26,8 +26,4 @@
 .vk-section-footer__link_color{
     color: #9e9391;
 	text-decoration: none;
-}
-
-.vk-section-footer__link_color:hover{
-
 }

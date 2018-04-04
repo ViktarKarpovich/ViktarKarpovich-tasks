@@ -9,11 +9,11 @@
     flex-wrap: wrap;
 }
 
-.vk-progress-container__progress-range-title{
+.vk-progress-container__progress-range_title{
     font-weight: 700;
     color: #233134;
 }
-.vk-progress-container__progress-range-value{
+.vk-progress-container__progress-range_value{
     font-weight: 700;
 }
 

@@ -1,10 +1,10 @@
 @media screen and (max-width: 1280px) {
 
-    .vk-first-line-menu{
+    .vk-first-line__menu{
         font-size: 11px;
     }
 
-    .vk-first-line-inscript {
+    .vk-first-line__inscript {
         font-size: 17px;
         margin: 4% 0 0 20%;
         text-shadow: white 1.4px 1.4px 0.9px;
@@ -21,7 +21,7 @@
 }
 
 @media screen and (max-width: 1024px){
-    .vk__content-wrapper{
+    .vk-page__content-wrapper{
         flex-wrap: wrap;
     }   
 
@@ -46,7 +46,7 @@
         height: 500px;
     }
 
-    .vk-first-line-right-side__position{
+    .vk-first-line__right-side_position{
         padding: 10% 3% 0 3%;
         text-align: center;
     }
@@ -72,7 +72,7 @@
         margin: 1% 0 0 20%;
     }
 
-    .vk-first-line-menu__item{
+    .vk-first-line__menu_item{
         color: white;
     }
 
@@ -125,7 +125,7 @@
         text-align: center;
     }
 
-    .vk-section-contact-information{
+    .vk-section-contact__information{
         text-align: center;
         padding: 3% 0;
     }
@@ -138,7 +138,7 @@
         justify-content: center;
     }
 
-    .vk-section-contact-information__sub-title-mail_margin-left{
+    .vk-section-contact__information-sub-title-mail_margin-left{
         margin-left: 1%;
     }
 
@@ -194,7 +194,7 @@
 }
 
 @media screen and (max-width: 768px){
-    .vk-first-line-inscript {
+    .vk-first-line__inscript {
         font-size: 20px;
         margin: 5% 0 0 20%;
         text-shadow: white 1.4px 1.4px 0.9px;
@@ -205,7 +205,7 @@
 
     .vk-page__media-elements_width{
         width: 100%;
-        height: 80vh;
+        height: 90vh;
     }
 
     .vk-third-line__mobile_width-100{
@@ -216,11 +216,11 @@
         margin: 10% 5%;
     }
 
-    .vk-first-line-right-side__position {
+    .vk-first-line__right-side_position {
         margin: 0 10% 0 10%;
     }
 
-    .vk-second-line-author__block_padding{
+    .vk-second-line__author_block_padding{
         padding: 5% 10% 5% 10%;
     }
 
@@ -229,7 +229,7 @@
     }
     
     .vk-third-line__text_position{
-        margin: 0 15%;
+        margin: 2em;
     }
 
     .vk-section-testimonial__title{
@@ -241,11 +241,11 @@
     }
 
     .vk-section-testimonial__image{
-        height: 50vh;
+        height: 65vh;
     }
 
     .vk-section-contact__form{
-        margin: 0 10%;
+        margin: 0 5%;
     }
 }
 
@@ -255,7 +255,7 @@
         background-position-y: 15%;
     }
 
-    .vk-first-line-inscript{
+    .vk-first-line__inscript{
         font-size: 16px;
         margin: 7% 0 0 27%;
         text-shadow: white 0.7px 0.7px 0.7px;
@@ -265,19 +265,19 @@
         margin: 1% 0 0 14%;
     }
 
-    .vk-first-line-menu{
+    .vk-first-line__menu{
         font-size: 0.5em;
     }
 
-    .vk-first-line-right-side__position{
+    .vk-first-line__right-side_position{
         margin: 0px 15% 0 15%;
     }
 
-    .vk-second-line__title-text__font-size{
+    .vk-second-line__title-text_font-size{
         font-size: 1.5em;
     }
 
-    .vk-second-line-author__author-text{
+    .vk-second-line__author_author-text{
         font-size: 12px;
         line-height: 1.5em;
     }
@@ -291,7 +291,7 @@
         font-size: 1.6em;
     }
 
-    .vk-second-line-skills__image-1{
+    .vk-second-line__skills_image-1{
         height: 90vh;
     }
 
@@ -326,11 +326,11 @@
         line-height: 1.5em;
     }
 
-    .vk-section-contact-information__title{
+    .vk-section-contact__information_title{
         font-size: 1.5em;
     }
 
-    .vk-section-contact-information__sub-title{
+    .vk-section-contact__information_sub-title{
         font-size: 1.5em;
     }
 
@@ -351,25 +351,25 @@
         background-position-x: 56%;
     }
 
-    .vk-first-line-inscript{
+    .vk-first-line__inscript{
         font-size: 14px;
         margin: 11% 0 0 27%;
         text-shadow: white 0.7px 0.7px 0.7px;
     }
     
-    .vk-first-line-right-side__position{
+    .vk-first-line__right-side_position{
         margin: 0 10% 0 10%;
     }
 
-    .vk-first-line-right-side__text_letter-spacing{
+    .vk-first-line__right-side-text_letter-spacing{
         letter-spacing: 1px;
     }
 
-    .vk-second-line__title-text__font-size{
+    .vk-second-line__title-text_font-size{
         font-size: 1.5em;
     }
 
-    .vk-second-line-author__author-text{
+    .vk-second-line__author_author-text{
         font-size: 12px;
         line-height: 1.5em;
     }

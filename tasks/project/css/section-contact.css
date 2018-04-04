@@ -25,7 +25,7 @@
     flex-direction: column;
 }
 
-.vk-section-contact__message-form-title{
+.vk-section-contact__message-form_title{
     font-size: 2.5em;
     line-height: 1.5em;
 }
@@ -47,7 +47,7 @@
     margin-top: 3%;
 }
 
-.vk-section-contact__message-form-button{
+.vk-section-contact__message-form_button{
     width: 50px;
     font-size: 15px;
     background: white;
@@ -69,7 +69,7 @@
     width: 100%;
 }
 
-.vk-section-contact-information{
+.vk-section-contact__information{
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -81,25 +81,25 @@
 
 }
 
-.vk-section-contact-information__title{
+.vk-section-contact__information_title{
     font-size: 1.4em;
     margin-bottom: 6%;
 }
 
-.vk-section-contact-information__sub-title{
+.vk-section-contact__information_sub-title{
     font-size: 0.7em;
 }
 
-.vk-section-contact-information__sub-title_margin-left{
+.vk-section-contact__information_sub-title_margin-left{
     margin-left: 5%;
 }
 
 
-.vk-section-contact__number-margin-bottom{
+.vk-section-contact__number_margin-bottom{
     margin-bottom: 5%;
 }
 
 
-.vk-section-contact-information__title_margin-bottom{
+.vk-section-contact__information_title-margin-bottom{
     margin-top: 15%;
 }
