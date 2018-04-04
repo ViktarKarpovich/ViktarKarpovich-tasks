@@ -1,0 +1,70 @@
+.vk-second-line {
+}
+
+
+.vk-second-line-author__block_padding{
+    padding: 6% 6% 7% 4%;
+}
+
+.vk-second-line-author__author-text{
+    font-size: 15px;
+    font-weight: 900;
+    line-height: 2em;
+    
+}
+
+.vk-second-line-author__sub-text{
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.vk-second-line-author{
+   background-color: rgba(128, 128, 128, 0.03);
+   width: 50%;
+}
+
+.vk-second-line-author__sub-text{
+    color:rgba(255, 69, 0, 0.86);
+}
+
+.vk-second-line-skills{
+    display: flex;
+    width: 100%;
+}
+
+.vk-second-line-skills__image{
+    width: 25%;
+}
+
+.vk-second-line-skills__image-1{
+    background: url("../images/1.jpg") no-repeat;
+    width: 100%;
+    height: 100%;
+    background-position-x: 50%;
+}
+
+.vk-second-line-skills-right-side{
+    width: 25%;
+    background-color: #f19d00bd;
+
+}
+
+
+.vk-second-line-skills-right-side__text_padding{
+    padding: 15% 15%;
+}
+
+.vk-second-line__title-text__font-size{
+    font-size: 2.6em;
+    font-weight: 900;
+}
+
+.vk-second-line-skills-right-side__title-text{
+    color: white;
+}
+
+.vk-second-line-skills-right-side__sub-text{
+    color: white;
+    font-size: 15px;
+    line-height: 3.5em;
+}

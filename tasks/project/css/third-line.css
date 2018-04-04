@@ -1,0 +1,81 @@
+.vk-third-line{
+    width: 100%;
+    height: 100%;
+}
+
+.vk-third-line__block_width{
+    width: 25%;
+}
+
+.vk-page__text_color-white{
+    color:white;
+}
+
+.vk-third-line__font_color-black{
+    color: rgba(0, 0, 0, 0.699);
+}
+
+.vk-third-line__first-yellow-block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background-color: #E4AE58;
+}
+
+.vk-page__text_color-Equator{
+    background-color: #E3AD58;
+}
+
+.vk-third-line-titles_title-size{
+    font-size: 1.7em;
+    margin: 25px 10% 25px 10%;
+    text-align: center;
+}
+
+.vk-third-line__first-red-block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background-color: #E9714C;
+}
+
+.vk-third-line__first-black-block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:100%;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+.vk-third-line__first-white-block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background: white;
+}
+
+.vk-third-line__color-icons{
+    color: white;
+}
+
+.vk-third-line__text_position{
+    text-align: center;
+    line-height: 1.5em;
+}
+
+.vk-third-line-color-icons_black{
+    color: black;
+}
+
+
+.vk-third-line__icons_position{
+    margin: 20px 0;
+    text-align: center;
+}
+
+.vk-third-line__text_margin{
+    margin: 0 15% 0 15%;
+}

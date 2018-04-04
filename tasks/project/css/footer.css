@@ -1,0 +1,33 @@
+.vk-section-footer{
+    width: 100%;
+    justify-content: center;
+}
+
+.vk-section-footer__content{
+    margin: 8% 0;
+    text-align: center;
+	color: #887e7dea;
+}
+
+.vk-section-footer__text_text-decoration-none{
+    text-decoration: none;
+}
+
+.vk-section-footer__icons{
+    display: flex;
+	justify-content: center;
+	
+}
+
+.vk-section-footer__icons_margin{
+    margin: 3% 2% 0 2%;
+}
+
+.vk-section-footer__link_color{
+    color: #9e9391;
+	text-decoration: none;
+}
+
+.vk-section-footer__link_color:hover{
+
+}

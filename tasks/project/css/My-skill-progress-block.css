@@ -1,0 +1,43 @@
+.vk-progress-container{
+
+}
+
+
+.vk-progress-container__progress-range{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.vk-progress-container__progress-range-title{
+    font-weight: 700;
+    color: #233134;
+}
+.vk-progress-container__progress-range-value{
+    font-weight: 700;
+}
+
+.vk-progress-container__progress-range-progress-bar{
+    background-color: #fff;
+    height: 2px;
+    width: 100%;
+    margin: 5% 0 10% 0;
+}
+
+.vk-progress-container__progress-range-backend{
+    background-color: #233134;
+    height: 100%;
+    width: 70%;
+}
+
+.vk-progress-container__progress-range-frontend{
+    background-color: #233134;
+    height: 100%;
+    width: 90%;
+}
+
+.vk-progress-container__progress-range-web{
+    background-color: #233134;
+    height: 100%;
+    width: 80%;
+}

@@ -1,0 +1,62 @@
+.vk-section-experience-and-education{
+    display: flex;
+    width: 100%;
+}
+
+.vk-section-experience-and-education-image{
+    max-height: 50%;
+    width: 100%;
+}
+
+.vk-section-experience-and-education-image__4s-image{
+    background: url("../images/4.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 65vh;
+}
+
+.vk-section-experience-and-education-image__3s-image{
+    background: url("../images/3.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 50vh;
+}
+
+
+.vk-section-experience-and-education__block-my-experiences{
+    width: 100%;
+}
+
+
+.vk-section-experience-and-education__block-my-experiences_margin{
+    margin: 5% 0 0 5%;
+}
+
+.vk-section-experience-and-education__title{
+    font-size: 2.5em;
+    margin-bottom: 15px;
+}
+
+.vk-section-experience-and-education__content{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5%;
+}
+
+.vk-section-experience-and-education__content-title{
+    font-size: 1.4em;
+    margin-left: 1em;
+}
+
+.vk-section-experience-and-education__content-date{
+    font-weight: bold;
+    color: #233134;
+    margin-top: 5px;
+    margin-left: 20px;
+    
+}
+
+.vk-section-experience-and-education__content-text{
+    margin-left: 10%;
+    font-size: 0.9em;
+}
